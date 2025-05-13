@@ -33,7 +33,7 @@ const Talk: React.FC = () => {
     "syllabus": "Course Syllabus",
     "module-1": "Module 1: Security & Crypto Concepts + Info/Data Privacy Concepts",
     "module-2": "Module 2: Privacy Requirements & Threats",
-    "module-3": "Module 3: Technical Security Controls for Privacyt",
+    "module-3": "Module 3: Technical Security Controls for Privacy",
     "module-4": "Module 4: Privacy Enhancing Technologies",
     "module-5": "Module 5: Info/Data Privacy Management",
     "module-6": "Module 6: Privacy Education, Protection & Incident Handling",
@@ -202,22 +202,21 @@ const Talk: React.FC = () => {
           >
             <option value="syllabus">Course Syllabus</option>
             <option value="module-1">
-              Module 1: Risk Management Fundamentals
+              Module 1: Security & Crypto Concepts + Info/Data Privacy Concepts
             </option>
             <option value="module-2">
-              Module 2: Compliance and Risk Management Plan Development
+              Module 2: Privacy Requirements & Threats
             </option>
-            <option value="module-3">Module 3: Risk Assessment</option>
+            <option value="module-3">Module 3: Technical Security Controls for Privacy</option>
             <option value="module-4">
-              Module 4: Identify and Analyze Assets, Activities, Threats,
-              Vulnerabilities & Exploits
+              Module 4: Privacy Enhancing Technologies
             </option>
-            <option value="module-5">Module 5: Risk Mitigation</option>
+            <option value="module-5">Module 5: Info/Data Privacy Management</option>
             <option value="module-6">
-              Module 6: Risk Mitigation Plan and Business Impact Analysis
+              Module 6: Privacy Education, Protection & Incident Handling
             </option>
             <option value="module-7">
-              Module 7: Risk Mitigation Plan Using Business Continuity Plan
+              Module 7: Legal & Regulatory Privacy Requirements
             </option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
@@ -260,7 +259,7 @@ const Talk: React.FC = () => {
             </button>
             <div className={`p-4 ${darkMode ? "text-white" : "text-gray-900"}`}>
               <h1 className="text-lg font-semibold">Cybersecurity Assistant</h1>
-              <p className="text-sm">AI-powered assistant for Risk Management.</p>
+              <p className="text-sm">AI-powered assistant for Data Privacy (MCY 620)</p>
             </div>
           </div>
         </div>
