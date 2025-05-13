@@ -227,6 +227,11 @@ const Talk: React.FC = () => {
             />
           </div>
         </div>
+        <div className="">
+          <h2 className={`mt-4 text-sm ${darkMode ? "text-white" : "text-gray-900"}`}>
+            Learn to use this MCY 620 Chatbot?
+          </h2>
+        </div>
       </div>
     </div>
   );
