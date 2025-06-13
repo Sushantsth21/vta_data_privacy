@@ -95,7 +95,7 @@ export async function POST(req: NextRequest) {
       stats: ratingStats
     });
   } catch (error) {
-    console.error("Error fetching rating statistics:", error);
+    console.error("Error fetching rating statistics", error);
     
     return NextResponse.json(
       { error: "Failed to retrieve rating statistics" },
